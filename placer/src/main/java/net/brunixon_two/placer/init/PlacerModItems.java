@@ -1,6 +1,4 @@
-/*
- *    MCreator note: This file will be REGENERATED on each build.
- */
+
 package net.brunixon_two.placer.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -20,8 +18,7 @@ public class PlacerModItems {
 		PLACER = block(PlacerModBlocks.PLACER);
 	}
 
-	// Start of user code block custom items
-	// End of user code block custom items
+
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block) {
 		return block(block, new Item.Properties());
 	}
@@ -29,4 +26,5 @@ public class PlacerModItems {
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block, Item.Properties properties) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), properties));
 	}
+
 }
