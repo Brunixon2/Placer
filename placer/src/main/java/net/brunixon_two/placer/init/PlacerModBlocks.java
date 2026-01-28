@@ -1,6 +1,4 @@
-/*
- *    MCreator note: This file will be REGENERATED on each build.
- */
+
 package net.brunixon_two.placer.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -17,6 +15,7 @@ public class PlacerModBlocks {
 	static {
 		PLACER = REGISTRY.register("placer", PlacerBlock::new);
 	}
-	// Start of user code block custom blocks
-	// End of user code block custom blocks
+
+
+
 }
