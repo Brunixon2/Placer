@@ -37,8 +37,6 @@ public class PlacerMod {
 	public static final String MODID = "placer";
 
 	public PlacerMod(IEventBus modEventBus) {
-		// Start of user code block mod constructor
-		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
 		PlacerModBlocks.REGISTRY.register(modEventBus);
@@ -46,12 +44,9 @@ public class PlacerMod {
 		PlacerModItems.REGISTRY.register(modEventBus);
 		PlacerModTabs.REGISTRY.register(modEventBus);
 		PlacerModMenus.REGISTRY.register(modEventBus);
-		// Start of user code block mod init
-		// End of user code block mod init
 	}
 
-	// Start of user code block mod methods
-	// End of user code block mod methods
+
 	private static boolean networkingRegistered = false;
 	private static final Map<CustomPacketPayload.Type<?>, NetworkMessage<?>> MESSAGES = new HashMap<>();
 
@@ -89,4 +84,5 @@ public class PlacerMod {
 		actions.forEach(e -> e.getA().run());
 		workQueue.removeAll(actions);
 	}
+
 }
