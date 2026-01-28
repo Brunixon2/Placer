@@ -1,6 +1,4 @@
-/*
- *	MCreator note: This file will be REGENERATED on each build.
- */
+
 package net.brunixon_two.placer.init;
 
 import net.neoforged.neoforge.client.event.RegisterMenuScreensEvent;
@@ -20,4 +18,5 @@ public class PlacerModScreens {
 	public interface ScreenAccessor {
 		void updateMenuState(int elementType, String name, Object elementState);
 	}
+
 }
