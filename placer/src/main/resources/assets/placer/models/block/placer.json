@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "placer:block/placer_bottom",
+    "up": "placer:block/placer_top",
+    "north": "placer:block/placer_front",
+    "east": "placer:block/placer_side",
+    "south": "placer:block/placer_back",
+    "west": "placer:block/placer_side",
+    "particle": "placer:block/placer_bottom"
+  },
+  "render_type": "solid"
+}

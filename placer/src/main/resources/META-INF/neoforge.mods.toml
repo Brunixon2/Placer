@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="placer"
+version="1.21.11.0"
+displayName="Placer"
+displayURL="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+credits="Made with: \"NeoForge for 1.21.1 (21.1.190)\""
+authors="Brunixon2"
+description="This mod basically adds a new vanilla styled block called \"Placer\""
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.placer]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.190,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.placer]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration
