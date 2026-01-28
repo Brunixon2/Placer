@@ -1,6 +1,4 @@
-/*
- *	MCreator note: This file will be REGENERATED on each build.
- */
+
 package net.brunixon_two.placer.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -49,4 +47,5 @@ public class PlacerModMenus {
 			}
 		}
 	}
+
 }
